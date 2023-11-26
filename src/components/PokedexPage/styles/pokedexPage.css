@@ -1,0 +1,56 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.poke__welcome{
+    color: rgb(216, 83, 83);
+    
+    font-weight: 700;
+
+}
+.poke__titulo{
+    font-size: 60px;
+    margin-top: 4vh; 
+    transform: translateX(7.5%);
+}
+.poke__texto{
+    margin-top: 6vh;
+    transform: translateX(7.5%);
+    font-size: 28px;
+}
+.poke__buscador{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 25px;
+    height: 45px;
+    margin-top: 3%;
+}
+.poke__formulario{
+    
+    box-shadow: rgb(85, 79, 79) 1px 2px 6px 1px;
+}
+.form__input{
+    height: 45px;
+    border: none;
+    background-color: white;
+    width: 60vh;
+}
+.form__input::placeholder{
+    font-size: 17px;
+    color: rgb(66, 53, 53)
+}
+.form__boton{
+    height: 50px;
+    font-size: 20px;
+    width: 15vh;
+    background-color: rgb(216, 83, 83);
+    border: none;
+    color: white;
+}
+
+  
+  

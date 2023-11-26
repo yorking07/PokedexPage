@@ -1,0 +1,7 @@
+.poke__select{
+    width: 60vh;
+    height: 50px;
+    box-shadow: rgb(85, 79, 79) 1px 2px 6px 1px;
+    border: none;
+    font-size: 18px;
+}
