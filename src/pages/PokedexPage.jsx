@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useSelector } from 'react-redux'
 import PokeCard from '../components/PokedexPage/PokeCard'
-import SelecType from '../components/PokedexPage/selecType'
+import SelecType from '../components/PokedexPage/SelecType'
 import useFetch from '../hooks/useFetch'
 import '../components/PokedexPage/styles/pokedexPage.css'
 import '../components/PokedexPage/styles/pokeCard.css'
